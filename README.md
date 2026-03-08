@@ -28,8 +28,14 @@ For any questions or bugs, please [Create an Issue](https://github.com/mashiroch
 
 #### Manual
 
+These steps are outlined on the [official Vencord Discord server](https://discord.com/channels/1015060230222131221/1257038407503446176)
+
 1. Clone and set up a local build of Vencord: https://docs.vencord.dev/installing/
 2. Create a folder called `userplugins` under the `src` folder in the Vencord project
 3. In a terminal window under that new `userplugins` folder, run `git clone https://github.com/mashirochan/Vencord-EmbedXivModArchive`
 4. Build Vencord with `pnpm build`
 5. Inject Vencord with `pnpm inject`
+
+### Disclaimer
+
+_This plugin fetches data from a third-party API and is entirely limited to the data that the site itself sends back. Neither Vencord nor the author of EmbedXivModArchive hold any liability for mislabeled NSFW and NSFL content. User discretion is advised._
